@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: yourapp
+  name: app
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: yourapp
+      app: app
   template:
     metadata:
       labels:
-        app: yourapp
+        app: app
     spec:
       containers:
-      - name: yourapp
+      - name: app
         image: intel/intel-optimized-clickhouse
         ports:
         - containerPort: 3000
