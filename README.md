@@ -62,7 +62,5 @@ The project demonstrates the following:
 - Monitor the deployments in your Kubernetes cluster using `kubectl` commands or Kubernetes dashboard.
 - Verify that the application is deployed correctly and functioning as expected in the staging and production environments.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
