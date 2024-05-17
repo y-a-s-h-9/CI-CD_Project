@@ -11,7 +11,7 @@
         stage('Build') {
             steps {
                 script {
-                    dockerImage = docker.build("intel/intel-optimized-clickhouse:${env.BUILD_ID}")
+                    dockerImage = docker.build("intel/intel-optimized-clickhouse:latest")
                 }
             }
         }
