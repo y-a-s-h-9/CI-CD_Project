@@ -29,7 +29,7 @@
         stage('Push') {
             steps {
                 script {
-                    docker.withRegistry('https://registry.hub.docker.com', 'dockerhub-credentials') {
+                    docker.withRegistry('https://registry.hub.docker.com', 'yashashvib9/Yashashvi@56') {
                         dockerImage.push("${env.BUILD_ID}")
                         dockerImage.push("latest")
                     }
